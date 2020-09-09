@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_KEY = "AIzaSyCf0Xy0OnhxlduyEt3K8zP-sOuu-l_u6uA";
+const API_KEY = "AIzaSyCf0Xy0OnhxlduyEt3K8zP-sOuu-l_u6uA"; //will need to use personal google translate api key
 
 const doTranslation = async (input, languageCode, cancelToken) => {
   try {
